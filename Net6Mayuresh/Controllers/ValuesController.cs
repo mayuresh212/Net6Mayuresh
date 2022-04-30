@@ -3,7 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Net6Mayuresh.Controllers
 {
-    [Route("api/[controller]")]
+    //[Route("api/[controller]")]
+    [Route("/")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
