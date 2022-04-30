@@ -3,8 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Net6Mayuresh.Controllers
 {
-    //[Route("api/[controller]")]
-    [Route("/")]
+    [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
@@ -18,7 +17,7 @@ namespace Net6Mayuresh.Controllers
         [HttpGet(Name = "FirstApi")]
         public string FirstApi()
         {
-            return "FirstApi .net 6 fff";
+            return "FirstApi .net 6 api controller";
         }
     }
 }
