@@ -17,7 +17,7 @@ namespace Net6Mayuresh.Controllers
         [HttpGet(Name = "FirstApi")]
         public string FirstApi()
         {
-            return "FirstApi .net 6";
+            return "FirstApi .net 6 fff";
         }
     }
 }
