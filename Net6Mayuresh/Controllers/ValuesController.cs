@@ -19,5 +19,11 @@ namespace Net6Mayuresh.Controllers
         {
             return "FirstApi .net 6 api controller";
         }
+
+        [HttpPost(Name = "SecondApi")]
+        public string SecondApi()
+        {
+            return "SecondApi .net 6 api controller";
+        }
     }
 }
